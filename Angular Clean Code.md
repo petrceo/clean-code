@@ -5,10 +5,10 @@
   1. [Coding style guide](#coding-style-guide)
   2. [Using Immutability](#using-immutability)
   3. [Prevent Memory Leaks in Angular Observable](#prevent-memory-leaks-in-angular-observable)
-  4. [Using index.ts](#using-index.ts)
+  4. [Using index file](#using-index-file)
   5. [Change Detection Optimisations](#change-detection-optimisations)
-  6. [Using trackBy in NgFor](#using-track-by)
-  7. [Using Smart - Dumb components](#using-smart-dumb-components)
+  6. [Using trackBy in NgFor](#using-trackby-in-ngfor)
+  7. [Using Smart - Dumb components](#using-smart---dumb-components)
   8. [Module Organisation and Lazy Loading](#module-organisation-and-lazy-loading)
 
 ## Coding style guide
@@ -47,7 +47,7 @@ Observable memory leaks are very common and found in every programming language,
 
 **[⬆ back to top](#table-of-contents)**
 
-## Using index.ts
+## Using index file
 
 index.ts helps us to keep all related things together so that we don’t have to be bothered about the source file name. This helps reduce the size of the import statement.
 
