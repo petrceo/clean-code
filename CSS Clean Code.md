@@ -43,7 +43,7 @@ The ID provides a unique name for an HTML element. If the name is unique, you ca
 
 ### WE DON’T USE TAG SELECTORS
 
-HTML page markup is unstable: A new design can change the nesting of the sections, heading levels (for example, from <h1> to <h3>) or turn the <p> paragraph into the <div> tag. Any of these changes will break styles that are written for tags. Even if the design doesn’t change, the set of tags is limited. To use an existing layout in another project, you have to solve conflicts between styles written for the same tags.
+HTML page markup is unstable: A new design can change the nesting of the sections, heading levels (for example, from h1 to h3) or turn the p paragraph into the div tag. Any of these changes will break styles that are written for tags. Even if the design doesn’t change, the set of tags is limited. To use an existing layout in another project, you have to solve conflicts between styles written for the same tags.
 
 An extended set of semantic tags can’t meet all layout needs, either.
 
